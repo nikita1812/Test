@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script src="Regitstration.js"></script>
+    </head>
+    <body>
+        <div>
+            <form action="Login.html" method="GET">
+                <div class="flex">
+                    <fieldset>
+                        <table>
+                            <tr>
+                                <td><input type="text" id="name" name="name" placeholder="Name" required></td>
+                            </tr>
+                            <tr>
+                                <td><input type="email" id="email" name="email" placeholder="Email" required></td>
+                            </tr>
+                            <tr>
+                                <td><input type="password" id="password" name="password" placeholder="Password" required></td>
+                            </tr>
+                            <tr>
+                                <td><input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select id="city">
+                                        <option>Select City</option>
+                                        <option value="baroda">Baroda</option>
+                                        <option value="gandhinagar">Gandhinagar</option>
+                                        <option value="ahmedabad">Ahmedabad</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                 <td>
+                                    <select id="state">
+                                        <option>Select State</option>
+                                        <option value="Gujrat">Gujrat</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Pune">Pune</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="checked" name="checked" value="Term & Conditions"><code>Term & Conditions</code><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" name="register" value="Register" onclick="check()"></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
